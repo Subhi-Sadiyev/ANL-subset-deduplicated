@@ -1,6 +1,26 @@
-aztc_full_localdoc/*
-near_duplicate_data_eda/near_duplicate_features/*
-near_duplicate_data_eda/near_duplicate_pairs/*
-near_duplicated_data_post/features/*
-near_duplicated_data_post/pairs/*
-processed_data/*
+# Dataset shards
+/aztc_full_localdoc/*
+!/aztc_full_localdoc/.gitkeep
+
+# EDA near-duplicate artifacts
+/near_duplicate_data_eda/near_duplicate_features/*
+!/near_duplicate_data_eda/near_duplicate_features/.gitkeep
+
+/near_duplicate_data_eda/near_duplicate_pairs/*
+!/near_duplicate_data_eda/near_duplicate_pairs/.gitkeep
+
+# Post-processing near-duplicate artifacts
+/near_duplicated_data_post/features/*
+!/near_duplicated_data_post/features/.gitkeep
+
+/near_duplicated_data_post/pairs/*
+!/near_duplicated_data_post/pairs/.gitkeep
+
+# Processed dataset
+/processed_data/*
+!/processed_data/.gitkeep
+
+# Jupyter and Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
